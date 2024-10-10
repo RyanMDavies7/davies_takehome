@@ -53,3 +53,4 @@ Contains unit tests for each of the three tasks, ensuring that all components of
 ### Other Files
 
 - **.gitignore**: Specifies files and directories to be ignored by Git for this project (e.g., `.venv/`).
+- **.pre-commit-config**: allows for local unit testing to let the user know if the code they have written has failed tests
