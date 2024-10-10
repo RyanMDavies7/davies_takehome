@@ -1,9 +1,9 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.0  # You can update to the latest version
+  - repo: local
     hooks:
-      - id: pytest
-        name: Run Unit Tests with pytest
-        language: system
+      - id: pytest-check
+        name: pytest-check
         entry: pytest
+        language: system
         pass_filenames: false
+        always_run: true
