@@ -10,7 +10,7 @@ This project solves three tasks using Python and is designed to be production-re
 
 - Extensible code structure following best practices for Python projects.
 - Unit tests for each task, ensuring code reliability.
-- Continuous Integration with GitHub Actions for automated testing and code linting.
+- Continuous Integration with GitHub Actions for automated testing.
 
 ## Requirements
 
