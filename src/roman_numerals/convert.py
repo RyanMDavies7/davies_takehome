@@ -17,5 +17,3 @@ def from_roman(numeral: str) -> int:
             value -= digit_value
 
     return value
-
-# print(from_roman(''))
